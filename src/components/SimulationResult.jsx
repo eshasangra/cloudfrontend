@@ -37,7 +37,8 @@ const SimulationResult = () => {
     { name: "Avg Exec Time", value: resultData?.avgExecTime },
   ];
 
-  const COLORS = ["#3b82f6", "#10b981"];
+  const COLORS = ["#facc15", "#10b981"]; // Yellow (Makespan), Green (Avg Exec Time)
+
 
   return (
     <div className="simulation-container">
